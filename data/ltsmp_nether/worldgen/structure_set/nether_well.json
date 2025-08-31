@@ -1,0 +1,14 @@
+{
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 1209283,
+    "separation": 15,
+    "spacing": 25
+  },
+  "structures": [
+    {
+      "structure": "ltsmp_nether:nether_well",
+      "weight": 1
+    }
+  ]
+}

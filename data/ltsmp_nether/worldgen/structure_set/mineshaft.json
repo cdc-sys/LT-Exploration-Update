@@ -1,0 +1,14 @@
+{
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 2085,
+    "separation": 10,
+    "spacing": 25
+  },
+  "structures": [
+    {
+      "structure": "ltsmp_nether:mineshaft/crimson_mineshaft",
+      "weight": 1
+    }
+  ]
+}
