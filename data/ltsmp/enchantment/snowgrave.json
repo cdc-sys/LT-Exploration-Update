@@ -1,0 +1,58 @@
+{
+  "exclusive_set": [
+    "minecraft:sharpness",
+    "minecraft:bane_of_arthropods",
+    "minecraft:smite"
+  ],
+  "primary_items": "#minecraft:swords",
+  "anvil_cost": 2,
+  "description": {
+    "text": "Snowgrave",
+    "type": "text",
+    "color": "gray"
+  },
+  "max_cost": {
+    "base": 30,
+    "per_level_above_first": 5
+  },
+  "max_level": 5,
+  "min_cost": {
+    "base": 5,
+    "per_level_above_first": 5
+  },
+  "slots": [
+    "offhand",
+    "mainhand"
+  ],
+  "supported_items": "#minecraft:enchantable/sharp_weapon",
+  "weight": 5,
+  "effects": {
+    "minecraft:damage": [
+      {
+        "requirements": {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "type": [
+              "minecraft:blaze",
+              "minecraft:magma_cube",
+              "minecraft:wither_skeleton",
+              "minecraft:strider",
+              "minecraft:zombified_piglin",
+              "minecraft:piglin",
+              "minecraft:zoglin",
+              "minecraft:hoglin",
+              "minecraft:piglin_brute",
+              "minecraft:ghast"
+            ]
+          }
+        },
+        "effect": {
+          "type": "minecraft:multiply",
+          "effects": [],
+          "factor": 2
+        }
+      }
+    ]
+  }
+}
