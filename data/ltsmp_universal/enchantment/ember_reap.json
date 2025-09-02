@@ -1,0 +1,39 @@
+{
+  "primary_items": "#minecraft:axes",
+  "anvil_cost": 5,
+  "description": {
+    "text": "Ember Reap",
+    "type": "text",
+    "color": "gray"
+  },
+  "effects": {
+    "minecraft:post_attack": [
+      {
+        "effect": {
+          "type": "minecraft:ignite",
+          "duration": {
+            "type": "minecraft:linear",
+            "base": 3,
+            "per_level_above_first": 3
+          }
+        },
+        "enchanted": "attacker",
+        "affected": "victim"
+      }
+    ]
+  },
+  "max_cost": {
+    "base": 60,
+    "per_level_above_first": 5
+  },
+  "max_level": 2,
+  "min_cost": {
+    "base": 28,
+    "per_level_above_first": 5
+  },
+  "slots": [
+    "mainhand"
+  ],
+  "supported_items": "#minecraft:axes",
+  "weight": 1
+}
