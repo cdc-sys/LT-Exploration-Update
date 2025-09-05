@@ -1,0 +1,3 @@
+this folder exists to modify certain behaviors
+such as block, item and other types of tags
+for example, so the combustion curse cant be grinded away

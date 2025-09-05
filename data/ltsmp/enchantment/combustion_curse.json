@@ -1,0 +1,32 @@
+{
+  "description": {
+    "text": "Curse of Combustion",
+    "type": "text",
+    "color": "red"
+  },
+  "supported_items": "#minecraft:enchantable/armor",
+  "weight": 1,
+  "max_level": 1,
+  "min_cost": {
+    "base": 66,
+    "per_level_above_first": 0
+  },
+  "max_cost": {
+    "base": 66,
+    "per_level_above_first": 0
+  },
+  "anvil_cost": 2,
+  "slots": [
+    "armor"
+  ],
+  "effects": {
+    "minecraft:attributes": [
+      {
+        "attribute": "minecraft:burning_time",
+        "id": "minecraft:curse_of_combustion",
+        "amount": 1,
+        "operation": "add_multiplied_total"
+      }
+    ]
+  }
+}

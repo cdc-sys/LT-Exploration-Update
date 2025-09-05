@@ -1,17 +1,18 @@
 Credits
 
-Lead Builder - Anvixo_
-Lead Coder - Anvixo_
+Coders - Anvixo_, cdc_sys
 Code Template - cdc_sys
-Build Suggestions - DermukAlt, Skepper23, cdc_sys
+Builders - cdc_sys, Anvixo_
+Build Suggestions - Anvixo_, DermukAlt, Skepper23, cdc_sys
 
 
 Special Credits
 
-The Level Thumbnails Server
+The (Geode) Level Thumbnails Server
 The LTSMP
 The Minecraft Wiki
 MCStacker
+Misode
 
 
 Signature Salt (AKA, specific structure credits...)

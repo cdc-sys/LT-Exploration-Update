@@ -1,0 +1,9 @@
+{
+    "replace": false,
+    "values": [
+        "minecraft:binding_curse",
+        "ltsmp:combustion_curse",
+        "minecraft:vanishing_curse"
+    ]
+
+}
