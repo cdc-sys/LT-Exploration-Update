@@ -4,7 +4,6 @@ Coders - Anvixo_, cdc_sys
 Code Template - cdc_sys
 Builders - cdc_sys, Anvixo_
 Build Suggestions - Anvixo_, DermukAlt, Skepper23, cdc_sys
-Advancements - Anvixo_
 
 
 Special Credits

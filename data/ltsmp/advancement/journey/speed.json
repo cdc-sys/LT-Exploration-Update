@@ -1,0 +1,50 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:firework_rocket"
+    },
+    "title": "Hypersonic",
+    "description": {
+      "text": "Riptide with an Elytra in the rain!",
+      "type": "text",
+      "extra": [
+        {
+          "text": " ...or some other method.",
+          "type": "text",
+          "color": "dark_blue",
+          "italic": true
+        }
+      ],
+      "color": "blue"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "ltsmp:journey/root",
+  "criteria": {
+    "speeed": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "movement": {
+            "speed": {
+              "min": 120,
+              "max": 343
+            }
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "speeed"
+    ]
+  ],
+  "rewards": {
+    "experience": 500
+  },
+  "sends_telemetry_event": false
+}

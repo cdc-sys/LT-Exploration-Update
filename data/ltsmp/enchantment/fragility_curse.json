@@ -1,0 +1,58 @@
+{
+  "description": {
+    "text": "Curse of Fragility",
+    "type": "text",
+    "color": "red"
+  },
+  "supported_items": "#minecraft:enchantable/durability",
+  "primary_items": "#minecraft:enchantable/durability",
+  "weight": 1,
+  "max_level": 1,
+  "min_cost": {
+    "base": 0,
+    "per_level_above_first": 0
+  },
+  "max_cost": {
+    "base": 0,
+    "per_level_above_first": 0
+  },
+  "anvil_cost": 3,
+  "slots": [
+    "any"
+  ],
+  "effects": {
+    "minecraft:item_damage": [
+      {
+        "requirements": {
+          "condition": "minecraft:random_chance",
+          "chance": 100
+        },
+        "effect": {
+          "type": "minecraft:all_of",
+          "effects": [
+            {
+              "type": "minecraft:add",
+              "value": 10
+            },
+            {
+              "type": "minecraft:remove_binomial",
+              "chance": 0.2
+            },
+            {
+              "type": "minecraft:remove_binomial",
+              "chance": 0.2
+            },
+            {
+              "type": "minecraft:remove_binomial",
+              "chance": 0.2
+            },
+            {
+              "type": "minecraft:remove_binomial",
+              "chance": 0.2
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

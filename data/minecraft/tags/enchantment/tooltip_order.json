@@ -2,6 +2,7 @@
     "replace": true,
     "values": [
         "minecraft:binding_curse",
+        "ltsmp:fragility_curse",
         "minecraft:vanishing_curse",
         "ltsmp:combustion_curse",
         "ltsmp:ember_reap",

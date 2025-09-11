@@ -4,6 +4,7 @@
         "#minecraft:non_treasure",
         "minecraft:vanishing_curse",
         "minecraft:binding_curse",
+        "ltsmp:fragility_curse",
         "ltsmp:combustion_curse",
         "minecraft:mending",
         "minecraft:frost_walker"
