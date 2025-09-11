@@ -1,57 +1,133 @@
 {
-  "type": "minecraft:generic",
+  "type": "minecraft:chest",
   "pools": [
     {
-      "rolls": 1,
+      "rolls": {
+        "type": "minecraft:uniform",
+        "min": 4,
+        "max": 9
+      },
       "entries": [
         {
           "type": "minecraft:item",
+          "name": "minecraft:crimson_planks",
+          "weight": 40,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 4,
+                "max": 19
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:name_tag",
+          "weight": 30
+        },
+        {
+          "type": "minecraft:item",
+          "name": "quartz",
+          "weight": 50,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 6,
+                "max": 18
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "blackstone",
+          "weight": 40,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 2,
+                "max": 10
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "string",
+          "weight": 50,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 2,
+                "max": 10
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:music_disc_chirp",
+          "weight": 20
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:netherite_scrap",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:nether_wart",
+          "weight": 50,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 5,
+                "max": 32
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
           "name": "minecraft:gold_ingot",
+          "weight": 100,
           "functions": [
             {
               "function": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
                 "min": 1,
-                "max": 12
-              },
-              "add": true
+                "max": 10
+              }
             }
           ]
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:netherrack",
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "type": "minecraft:uniform",
-                "min": 1,
-                "max": 5
-              },
-              "add": true
-            }
-          ]
+          "name": "minecraft:ancient_debris",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "minecraft:piglin_loved",
+          "expand": true,
+          "weight": 5
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:gold_nugget",
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "type": "minecraft:uniform",
-                "min": 1,
-                "max": 6
-              },
-              "add": true
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:golden_sword",
+          "name": "minecraft:crimson_roots",
+          "weight": 200,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -66,8 +142,19 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:golden_pickaxe",
-          "functions": []
+          "name": "minecraft:gold_nugget",
+          "weight": 300,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 3,
+                "max": 5
+              },
+              "add": true
+            }
+          ]
         }
       ]
     }
