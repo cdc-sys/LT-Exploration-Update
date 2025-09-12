@@ -1,0 +1,34 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:turtle_scute",
+      "count": 1
+    },
+    "title": {
+      "text": "Now Look at The Big Baby!",
+      "type": "text"
+    },
+    "description": {
+      "text": "Collect a Turtle Scute (We've made a joke about scute already, awkward...)",
+      "type": "text",
+      "color": "green"
+    }
+  },
+  "parent": "minecraft:adventure/root",
+  "criteria": {
+    "scute": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:turtle_scute",
+            "count": {
+              "min": 1,
+              "max": 9999
+            }
+          }
+        ]
+      }
+    }
+  }
+}

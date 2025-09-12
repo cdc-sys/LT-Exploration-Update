@@ -1,4 +1,4 @@
-this datapack also utilizes a RESOURCE PACK to add more textures.
+this datapack also utilizes a RESOURCE PACK (The Folder called LTSMP Resources) to add more textures.
 please install it!
 
 
