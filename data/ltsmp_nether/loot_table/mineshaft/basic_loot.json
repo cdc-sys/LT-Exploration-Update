@@ -81,7 +81,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:netherite_scrap",
-          "weight": 10
+          "weight": 3
         },
         {
           "type": "minecraft:item",
@@ -116,7 +116,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:ancient_debris",
-          "weight": 10
+          "weight": 3
         },
         {
           "type": "minecraft:tag",

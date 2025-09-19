@@ -1,0 +1,12 @@
+{
+    "hauntmuskie": {
+        "sounds": [
+            "ltsmpthesecond:records/hauntmuskie"
+        ]
+    },
+    "daisybell": {
+        "sounds": [
+            "ltsmpthesecond:records/daisybell"
+        ]
+    }
+}
