@@ -1,0 +1,44 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:music_disc_far",
+          "weight": 6,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:jukebox_playable": "ltsmp:wild",
+                "minecraft:item_model": "ltsmp:wild"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:beetroot_seeds",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:pumpkin_seeds",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:melon_seeds",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:wheat_seeds",
+          "weight": 1
+        }
+      ]
+    }
+  ]
+}

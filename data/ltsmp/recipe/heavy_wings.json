@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": "minecraft:heavy_core",
+  "base": "minecraft:elytra",
+  "result": {
+    "id": "minecraft:elytra",
+    "components": {
+      "minecraft:max_damage": 628,
+      "minecraft:attribute_modifiers": [
+        {
+          "type": "minecraft:armor",
+          "id": "minecraft:elytra02",
+          "amount": 4,
+          "operation": "add_value",
+          "slot": "chest",
+          "display": {
+            "type": "default"
+          }
+        }
+      ],
+      "minecraft:item_name": {
+        "text": "Hemelytra"
+      },
+      "minecraft:item_model": "ltsmp:hemelytra",
+      "minecraft:equippable": {
+        "slot": "chest",
+        "equip_sound": "minecraft:item.armor.equip_gold",
+        "asset_id": "ltsmp:hemelytra",
+        "swappable": true,
+        "damage_on_hurt": true
+      }
+    },
+    "count": 1
+  }
+}

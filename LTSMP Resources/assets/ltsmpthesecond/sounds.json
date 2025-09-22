@@ -8,5 +8,30 @@
         "sounds": [
             "ltsmpthesecond:records/daisybell"
         ]
+    },
+    "featurepresentation": {
+        "sounds": [
+            "ltsmpthesecond:records/featurepresentation"
+        ]
+    },
+    "enchanted": {
+        "sounds": [
+            "ltsmpthesecond:records/enchanted"
+        ]
+    },
+    "wild": {
+        "sounds": [
+            "ltsmpthesecond:records/wild"
+        ]
+    },
+    "woosh": {
+        "sounds": [
+            "ltsmpthesecond:records/woosh"
+        ]
+    },
+    "exdee": {
+        "sounds": [
+            "ltsmpthesecond:records/exdee"
+        ]
     }
 }

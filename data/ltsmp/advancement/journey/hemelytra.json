@@ -1,0 +1,48 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:elytra",
+      "components": {
+        "minecraft:item_model": "ltsmp:hemelytra"
+      },
+      "count": 1
+    },
+    "title": {
+      "text": "Coleopteric Is The Way",
+      "hover_event": {
+        "action": "show_text",
+        "value": {
+          "text": "i had to use wikipedia for this",
+          "type": "text",
+          "font": "minecraft:illageralt"
+        }
+      }
+    },
+    "description": {
+      "text": "Use a Smithing Table to Fuse a Heavy Core with an Elytra!",
+      "type": "text",
+      "color": "blue"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "ltsmp:journey/root",
+  "criteria": {
+    "hemelytra": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "ltsmp:heavy_wing"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "hemelytra"
+    ]
+  ],
+  "rewards": {
+    "experience": 500
+  }
+}

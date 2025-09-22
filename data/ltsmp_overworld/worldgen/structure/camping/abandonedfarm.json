@@ -4,7 +4,7 @@
     "minecraft:forest",
     "minecraft:plains"
   ],
-  "step": "surface_structures",
+  "step": "top_layer_modification",
   "terrain_adaptation": "none",
   "spawn_overrides": {},
   "start_pool": "ltsmp_overworld:camping/abandonedfarm",

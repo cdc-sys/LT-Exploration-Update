@@ -1,0 +1,8 @@
+{
+  "description": "Terraainn - Woosh",
+  "comparator_output": 15,
+  "length_in_seconds": 227,
+  "sound_event": {
+  "sound_id": "ltsmpthesecond:woosh"
+  }
+}

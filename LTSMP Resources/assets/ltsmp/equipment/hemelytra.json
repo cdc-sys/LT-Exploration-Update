@@ -1,0 +1,10 @@
+{
+  "layers": {
+    "wings": [
+      {
+        "texture": "ltsmp:hemelytra",
+        "use_player_texture": false
+      }
+    ]
+  }
+}
