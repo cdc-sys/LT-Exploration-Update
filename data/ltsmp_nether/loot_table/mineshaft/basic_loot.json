@@ -4,8 +4,8 @@
     {
       "rolls": {
         "type": "minecraft:uniform",
-        "min": 4,
-        "max": 9
+        "min": 3,
+        "max": 7
       },
       "entries": [
         {
@@ -76,7 +76,16 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:music_disc_chirp",
-          "weight": 20
+          "weight": 20,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "ltsmp:23",
+                "minecraft:jukebox_playable": "ltsmp:daisybell"
+              }
+            }
+          ]
         },
         {
           "type": "minecraft:item",
