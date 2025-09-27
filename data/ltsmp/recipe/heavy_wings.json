@@ -5,7 +5,7 @@
   "result": {
     "id": "minecraft:elytra",
     "components": {
-      "minecraft:max_damage": 628,
+      "minecraft:max_damage": 934,
       "minecraft:attribute_modifiers": [
         {
           "type": "minecraft:armor",
@@ -28,7 +28,8 @@
         "asset_id": "ltsmp:hemelytra",
         "swappable": true,
         "damage_on_hurt": true
-      }
+      },
+      "minecraft:break_sound": "minecraft:block.heavy_core.break"
     },
     "count": 1
   }

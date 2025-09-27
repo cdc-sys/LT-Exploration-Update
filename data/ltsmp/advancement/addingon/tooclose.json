@@ -1,0 +1,52 @@
+{
+  "parent": "minecraft:adventure/shoot_arrow",
+  "criteria": {
+    "too_close": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "distance": {
+            "absolute": {
+              "min": 0,
+              "max": 1
+            }
+          }
+        },
+        "killing_blow": {
+          "tags": [
+            {
+              "id": "minecraft:is_projectile",
+              "expected": true
+            }
+          ],
+          "is_direct": true
+        }
+      }
+    }
+  },
+  "display": {
+    "description": {
+      "text": "Kill a Mob from an Unnecessarily Close Distance with a Ranged Weapon"
+    },
+    "frame": "task",
+    "icon": {
+      "count": 1,
+      "id": "minecraft:spectral_arrow"
+    },
+    "title": {
+      "text": "Too Close for Comfort"
+    },
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "requirements": [
+    [
+      "too_close"
+    ]
+  ],
+  "rewards": {
+    "experience": 0
+  },
+  "sends_telemetry_event": true
+}

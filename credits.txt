@@ -3,7 +3,7 @@ Credits
 Coders - Anvixo_, cdc_sys
 Code Template - cdc_sys
 Builders - cdc_sys, Anvixo_
-Build Suggestions - Anvixo_, DermukAlt, Skepper23, cdc_sys
+Build Suggestions - Anvixo_, Skepper23, cdc_sys
 Advancements - Anvixo_
 
 
@@ -14,8 +14,3 @@ The LTSMP
 The Minecraft Wiki
 MCStacker
 Misode
-
-
-Signature Salt (AKA, specific structure credits...)
-Anvixo_ - 2085
-cdc_sys - 3993939

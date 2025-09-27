@@ -33,7 +33,7 @@
     "hemelytra": {
       "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "recipe_id": "ltsmp:heavy_wing"
+        "recipe_id": "ltsmp:heavy_wings"
       }
     }
   },

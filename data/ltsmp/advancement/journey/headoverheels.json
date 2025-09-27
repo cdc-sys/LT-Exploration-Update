@@ -1,0 +1,60 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:creeper_head"
+    },
+    "title": {
+      "text": "Head Over Heels",
+      "type": "text"
+    },
+    "description": {
+      "text": "Obtain any Mob Head that is exclusive to Charged Creepers!",
+      "type": "text",
+      "color": "blue"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "parent": "ltsmp:journey/root",
+  "criteria": {
+    "skull_zombie": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:zombie_head"
+          }
+        ]
+      }
+    },
+    "skull_skeleton": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:skeleton_skull"
+          }
+        ]
+      }
+    },
+    "skull_creeper": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:creeper_head"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "skull_zombie",
+      "skull_creeper",
+      "skull_skeleton"
+    ]
+  ]
+}

@@ -66,21 +66,19 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:elytra",
-          "weight": 50
+          "weight": 80
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:diamond",
-          "weight": 50,
+          "name": "minecraft:music_disc_wait",
+          "weight": 20,
           "functions": [
             {
-              "function": "minecraft:set_count",
-              "count": {
-                "type": "minecraft:uniform",
-                "min": 1,
-                "max": 16
-              },
-              "add": false
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:jukebox_playable": "ltsmp:hauntmuskie",
+                "minecraft:item_model": "ltsmp:hauntmuskie"
+              }
             }
           ]
         }
